@@ -1,5 +1,5 @@
 // Base URL for the JSON Server API
-const BASE_URL = 'http://localhost:3002';
+const BASE_URL = 'https://jsonbackend-vvfh.onrender.com';
 
 // Generic fetch function with error handling
 const fetchAPI = async (url, options = {}) => {
