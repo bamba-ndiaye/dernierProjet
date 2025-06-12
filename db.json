@@ -1,0 +1,261 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ma mere",
+      "phone": "771234567",
+      "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+      "status": "Available",
+      "lastSeen": "2025-06-03T14:28:00Z"
+    },
+    {
+      "id": 2,
+      "name": "ma belle soeur",
+      "phone": "782287414",
+      "avatar": "https://randomuser.me/api/portraits/men/2.jpg",
+      "status": "Hey there! I am using WhatsApp",
+      "lastSeen": "2025-06-03T18:28:00Z"
+    },
+    {
+      "id": 3,
+      "name": "mon pere",
+      "phone": "776457547",
+      "avatar": "https://randomuser.me/api/portraits/men/3.jpg",
+      "status": "At work",
+      "lastSeen": "2025-06-03T21:28:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Mon Ami",
+      "phone": "772345678",
+      "avatar": "https://randomuser.me/api/portraits/men/4.jpg",
+      "status": "Colonel is typing...",
+      "lastSeen": "2025-06-03T21:29:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Mon oncle",
+      "phone": "773456789",
+      "avatar": "https://randomuser.me/api/portraits/men/5.jpg",
+      "status": "Busy",
+      "lastSeen": "2025-06-03T21:02:00Z"
+    },
+    {
+      "id": 6,
+      "name": "Ma tanta",
+      "phone": "774567890",
+      "avatar": "https://randomuser.me/api/portraits/women/6.jpg",
+      "status": "In a meeting",
+      "lastSeen": "2025-06-03T20:59:00Z"
+    },
+    {
+      "id": 7,
+      "name": "Marie Ndiaye",
+      "phone": "775678910",
+      "avatar": "https://randomuser.me/api/portraits/women/7.jpg",
+      "status": "Available",
+      "lastSeen": "2025-06-03T20:59:00Z"
+    },
+    {
+      "name": "mor lam",
+      "phone": "776789101",
+      "avatar": "https://ui-avatars.com/api/?name=Ousmane%20Marra&background=128C7E&color=fff",
+      "status": "Hey there! I am using WhatsApp",
+      "lastSeen": "2025-06-11T15:24:50.513Z",
+      "id": 8
+    }
+  ],
+  "conversations": [
+    {
+      "id": 1,
+      "participants": [
+        1,
+        2
+      ],
+      "isGroup": false,
+      "messages": [
+        {
+          "id": 1,
+          "senderId": 2,
+          "text": "bonjour comment tu vas?",
+          "timestamp": "2025-06-03T18:25:00Z",
+          "isRead": true,
+          "type": "text"
+        },
+        {
+          "id": 2,
+          "senderId": 1,
+          "text": "je vais bien et toi?",
+          "timestamp": "2025-06-03T18:27:00Z",
+          "isRead": true,
+          "type": "text"
+        }
+      ],
+      "lastUpdated": "2025-06-03T18:27:00Z"
+    },
+    {
+      "id": 2,
+      "participants": [
+        1,
+        3
+      ],
+      "isGroup": false,
+      "messages": [
+        {
+          "id": 1,
+          "senderId": 3,
+          "text": "tu a un projet?",
+          "timestamp": "2025-06-03T21:25:00Z",
+          "isRead": true,
+          "type": "text"
+        },
+        {
+          "id": 2,
+          "senderId": 1,
+          "text": "oui,j'ai un projet .",
+          "timestamp": "2025-06-03T21:26:00Z",
+          "isRead": true,
+          "type": "text"
+        },
+        {
+          "id": 3,
+          "senderId": 3,
+          "text": "0:12",
+          "timestamp": "2025-06-03T21:28:00Z",
+          "isRead": true,
+          "type": "voice"
+        }
+      ],
+      "lastUpdated": "2025-06-12T09:00:59.096Z"
+    },
+    {
+      "id": 3,
+      "participants": [
+        1,
+        4
+      ],
+      "isGroup": false,
+      "messages": [
+        {
+          "id": 1,
+          "senderId": 4,
+          "text": "Meeting at 3pm tomorrow",
+          "timestamp": "2025-06-03T21:20:00Z",
+          "isRead": true,
+          "type": "text"
+        },
+        {
+          "id": 2,
+          "senderId": 1,
+          "text": "I'll be there",
+          "timestamp": "2025-06-03T21:22:00Z",
+          "isRead": true,
+          "type": "text"
+        }
+      ],
+      "lastUpdated": "2025-06-03T21:22:00Z"
+    },
+    {
+      "id": 4,
+      "participants": [
+        1,
+        5
+      ],
+      "isGroup": false,
+      "messages": [
+        {
+          "id": 1,
+          "senderId": 5,
+          "text": "Les concours actuellement ouverts a...",
+          "timestamp": "2025-06-03T21:00:00Z",
+          "isRead": true,
+          "type": "text"
+        }
+      ],
+      "lastUpdated": "2025-06-12T09:00:35.425Z"
+    },
+    {
+      "id": 5,
+      "name": "BTS ÉNERGIE RENOUVELABLE",
+      "participants": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "admins": [
+        1
+      ],
+      "isGroup": true,
+      "messages": [
+        {
+          "id": 1,
+          "senderId": 1,
+          "text": "import \"./style.css\"\nimport \"./index.css\"\n\nimport {createElement} from \"./components.js\"\nimport {DATA,FONT,COLORS,CONTACT, GROUPES} from \"./consts.js\"\n\n// Utilisateur par défaut\nconst DEFAULT_USER = {\n  name: \"Ousmane Marra\",\n  telephone: \"774366884\"\n};",
+          "timestamp": "2025-06-03T21:30:00Z",
+          "isRead": true,
+          "type": "code"
+        },
+        {
+          "id": 2,
+          "senderId": 1,
+          "text": "let selectedItem = null;\nlet selectedType = null;\n\nlet ARCHIVED_CONTACTS = [];\nlet ARCHIVED_GROUPS = [];\n\nconst leftBox = createElement(\"div\", {\n  class: [\"w-[?%]\", \"h-full\", \"bg-[#f0efe8]\", \"flex\", \"flex-col\", \"gap-3\", \"items-center\", \"justify-center\"],\n  vFor: {\n    each: FONT,\n    render: (item) =>{\n      return createElement(\"button\",{\n        class: [\"w-[90%]\", \"h-[10%]\", \"border\", \"border-[#e1b447]\", \"rounded-xl\", \"focus:bg-[#e1b447]\"],\n        id: item.id,\n        onclick: () => handleButtonC...Read more",
+          "timestamp": "2025-06-03T21:35:00Z",
+          "isRead": true,
+          "type": "code"
+        },
+        {
+          "id": 3,
+          "senderId": 8,
+          "text": "Salut",
+          "type": "text",
+          "timestamp": "2025-06-11T15:33:38.967Z",
+          "isRead": false
+        }
+      ],
+      "lastUpdated": "2025-06-11T15:33:38.967Z"
+    },
+    {
+      "participants": [
+        8,
+        2
+      ],
+      "isGroup": false,
+      "messages": [
+        {
+          "id": 1,
+          "senderId": 8,
+          "text": "HJHVBC",
+          "type": "text",
+          "timestamp": "2025-06-11T15:35:14.403Z",
+          "isRead": false
+        }
+      ],
+      "lastUpdated": "2025-06-11T15:35:14.403Z",
+      "id": 6
+    }
+  ],
+  "status": [
+    {
+      "id": 1,
+      "userId": 2,
+      "content": "At the beach today! 🏖️",
+      "type": "image",
+      "mediaUrl": "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "timestamp": "2025-06-03T16:30:00Z",
+      "expiresAt": "2025-06-04T16:30:00Z",
+      "viewedBy": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "content": "Working on a new project!",
+      "type": "text",
+      "timestamp": "2025-06-03T18:45:00Z",
+      "expiresAt": "2025-06-04T18:45:00Z",
+      "viewedBy": []
+    }
+  ]
+}
